@@ -1,0 +1,60 @@
+header{
+    p{
+        margin: 0rem;
+    }
+}
+
+
+.main-form{ 
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #fdfdfd;
+    height: 37.5rem;
+    .acceso{
+        .ingreso-button {
+            color: #fdfdfd;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            animation: cambioFondo 1s infinite;
+            margin: 1.25rem;
+        }
+        @keyframes cambioFondo {
+            0% {
+                background-color: #00ff62;
+            }
+            20% {
+                background-color: #2caf61;
+            }
+            40% {
+                background-color: #37734e;
+            }
+            60% {
+                background-color: #314633;
+            }
+            80% {
+                background-color: rgb(38, 35, 35);
+            }
+            100% {
+                background-color: #000000;
+            }
+        }
+        .form-floating{
+            input{
+                margin: 0 auto;
+                
+            }
+            label{
+                text-align: center;
+            }
+        }
+    }
+
+    .registro{
+        @extend .acceso;
+    }
+}

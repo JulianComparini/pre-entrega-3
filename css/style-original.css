@@ -1,0 +1,91 @@
+
+
+html{
+    overflow-x: hidden !important;
+
+}
+
+
+
+
+.navbar li:hover .submenu{
+display: block;
+}
+
+
+.navsup{
+    display: flex;
+    justify-content: center;
+}
+
+
+.submenu{
+    list-style: none;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 10px;
+    background-color: #ffffff;
+    color: black;
+    font-size: 20px; 
+}
+
+
+
+.main-form{ 
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #fdfdfd;
+    height: 600px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form h3{
+    font-size: 1.5rem;
+}
+
+form label{
+    margin-top: 5%;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+form input{
+    border-radius: 10px;
+    padding: 5px;
+    width: 300px;
+
+}
+
+form .button{
+    padding: 5px;
+    margin-top: 5%;
+}
+
+form .button:hover{
+    padding: 5px;
+    color: red;
+    cursor: pointer;
+}
+
+@media (max-width: 568px) {
+   /* estilos form responsive */
+    .main-form{
+    flex-direction: column;
+    } 
+}
+
+@media (max-width: 375px){
+    .barra-de-busqueda{
+        width: 250px;
+    }
+}
+

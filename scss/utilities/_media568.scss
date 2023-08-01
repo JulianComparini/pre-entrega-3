@@ -1,0 +1,40 @@
+@media (max-width: 568px){
+    .barra-de-busqueda{
+        width: 100%;
+        margin-right: 0;
+        }
+    .cuenta{
+        margin-bottom: 5%;
+        }
+        
+    .nav-container{
+        margin-top: 5%;
+        }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: .7rem;
+        }
+    .main-img{
+        flex-direction: column;
+        img{
+            max-width: 100%;
+        }
+        }
+    footer{
+        margin-top: 5%;
+        padding: 5%;
+        .footer-container{
+            flex-direction: column;
+            }
+        .footer-enlaces{
+            margin-top: 5%;
+            }
+        .contacto-footer div{
+            color: #fff;
+            }
+        
+        }
+}

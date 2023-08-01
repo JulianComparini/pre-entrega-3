@@ -1,0 +1,17 @@
+@media (max-width: 865px){
+    .busqueda{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+    }
+    .navbar{
+        font-size: .5075rem;
+        a{
+            text-decoration: none;
+        display: block;
+        padding: .3125rem;
+        }
+    }
+}

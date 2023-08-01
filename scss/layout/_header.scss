@@ -1,0 +1,86 @@
+header{
+    .mensaje-whatsapp{
+        background-color: $color-mensaje;
+        color: #ffffff;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+        font-size: 1.25rem;
+        text-align: center;
+        a{
+            color: $color_whatsapp;   
+        }
+        }
+    nav{
+        background-color: $color-header; 
+        @include flex;
+        .busqueda{
+            @include flex;
+            gap: 1.875rem;
+            .buscador{
+                .barra-de-busqueda{
+                    width: 21.875rem;
+                    height: 3.125rem;
+                    border-radius: 1.5625rem;
+                    margin-top: 2.1875rem;
+                    font-size: 1.125rem;
+                    
+                }
+            }
+            .contacto{
+                @include flex;
+                gap: .9375rem;
+                margin-top: 2.8125rem;
+                a{
+                    text-decoration: none;
+                }
+                h3{
+                    font-size: .9375rem;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    text-decoration: none;
+                    color: $color_whatsapp;
+                }
+                p{
+                    font-size: .9375rem;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    text-decoration: none;
+                    color: #ffffff;
+                    display: flex;
+                    justify-content: center;
+                }
+            } 
+        }
+        .cuenta{
+            margin-top: 2.9375rem;
+        }
+    }
+    .nav-container{
+        position: relative;
+        span{
+            position: absolute;
+            border-bottom: .125rem solid #222526;
+            bottom: 0;
+            width: 100%;
+        }
+        .navbar{
+            list-style: none; 
+            @include flex;
+            padding: 0;
+            margin: 0;
+            font-size: .9375rem;
+            li{
+                position: relative;
+                display: inline-block;
+                a{
+                    color: #222526;
+                    &:hover{
+                        color: red;
+                    }
+                }
+            }
+            a{
+                text-decoration: none;
+                display: block;
+                padding: 1.25rem;
+            }
+        }
+    }
+    }
